@@ -1,6 +1,6 @@
 node {
     stage ("Checkout AuthService"){
-        git branch: 'main', url: 'https://github.com/morgan-morris-bah/iron-maven.git'
+        git branch: 'main', url: 'https://github.com/morgan-morris-bah/mcc-auth-api.git'
     }
     
     stage ("Gradle Build - AuthService") {
